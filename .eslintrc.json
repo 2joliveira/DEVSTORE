@@ -1,3 +1,8 @@
 {
-  "extends": ["next/core-web-vitals", "@rocketseat/eslint-config/next"]
+  "extends": ["next/core-web-vitals"],
+  "rules": {
+    // Adicione estas regras para permitir aspas duplas e ponto e vírgula
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"]
+  }
 }
